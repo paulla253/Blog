@@ -21,3 +21,4 @@ Route::get('/', function () {
 
 /*Mandado com o nome*/
 Route::get('/test/{nome}','TestController@index');
+Route::get('/notas','TestController@notas');
