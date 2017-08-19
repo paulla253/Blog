@@ -16,8 +16,8 @@ Route::get('/', function () {
 });
 
 /*Mandando para o controler- Primeiro teste*/
-Route::get('/teste','TestController@index');
+//Route::get('/test','TestController@index');
 
 
 /*Mandado com o nome*/
-Route::get('/teste/{nome}','TestController@index');
+Route::get('/test/{nome}','TestController@index');
