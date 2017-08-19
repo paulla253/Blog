@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*Mandando para o controler- Primeiro teste*/
+Route::get('/teste','TestController@index');
+
+
+/*Mandado com o nome*/
+Route::get('/teste/{nome}','TestController@index');
