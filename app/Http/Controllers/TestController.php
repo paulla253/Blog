@@ -23,7 +23,16 @@ class TestController extends Controller
 
     public function  notas()
     {
-        return view('test/notas');
+
+        $notas = [
+                    0=>'Anotações 1',
+                    1=>'Anotações 2',
+                    2=>'Anotações 3',
+                    3=>'Anotações 4',
+                    4=>'Anotações 5',
+        ];
+
+        return view('test/notas',compact('notas'));
 
     }
 
