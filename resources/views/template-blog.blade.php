@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Justified Nav Template for Bootstrap</title>
+    <title>Tudo sobre jogos</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 <div class="container">
 
     <div class="masthead">
-        <h3 class="text-muted">Project name</h3>
+        <h3 class="text-muted">TudoJogos</h3>
 
         <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,18 +56,14 @@
             </div>
         </nav>
     </div>
-
     <!-- Jumbotron -->
-    <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
-    </div>
-
-
+    {{--<div class="jumbotron">--}}
+        {{--<h1>Marketing stuff!</h1>--}}
+        {{--<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>--}}
+        {{--<p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>--}}
+    {{--</div>--}}
 
      @yield('conteudo')
-
 
     <!-- Site footer -->
     <footer class="footer">
