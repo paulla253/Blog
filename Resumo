@@ -1,0 +1,5 @@
+
+Comando para incial o banco do Laravel:
+
+php artisan tinker
+
