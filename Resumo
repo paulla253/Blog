@@ -10,6 +10,15 @@ Comandos utéis:
 
 
 
+    Gerar arquivos de testes,aou configurar o factory
+    factory('App\Post')->make();
+
+    factory('App\Post')->create(); -> salva o teste no banco.
+
+    factory('App\Post',n)->create(); -> N quantidade de registro para serem criados
 
 php artisan key:generate ->Gera a Key para o .env
+
+
+
 
