@@ -17,6 +17,14 @@ Comandos utéis:
 
     factory('App\Post',n)->create(); -> N quantidade de registro para serem criados
 
+
+
+
+php artisan make:seeder nome -> cria seeder
+
+php artisan db:seed -> roda as seeder
+
+
 php artisan key:generate ->Gera a Key para o .env
 
 
