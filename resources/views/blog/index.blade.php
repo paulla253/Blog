@@ -1,6 +1,4 @@
 @extends('template-blog')
-
-
 @section('conteudo')
 
     <div class="row">
@@ -16,5 +14,4 @@
         @endforeach
 
     </div>
-
 @stop

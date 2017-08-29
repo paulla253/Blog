@@ -10,7 +10,7 @@ class BlogController extends Controller
     {
         /*No futuro criar um model para organizar os conteudos*/
 
-        $titulo = [
+        $titulos = [
             0=>'Pokémon GO',
             1=>'Clash Royale',
             2=>'Minha Talking Angela',
