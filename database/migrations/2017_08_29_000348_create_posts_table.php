@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTalbePost extends Migration
+class CreatePostsTable extends Migration
 {
     /**
      *Criará o esquema do banco
