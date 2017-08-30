@@ -12,4 +12,11 @@ class Post extends Model
         'title',
         'content'
     ];
+
+    /*Um posts pode ter vários comentarios*/
+    public function comments()
+    {
+        return $this->hasMany('App\Comment');
+    }
+    /*Pode ser obervado no tinker*/
 }
