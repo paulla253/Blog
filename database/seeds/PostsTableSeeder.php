@@ -13,7 +13,7 @@ class PostsTableSeeder extends Seeder
     public function run()
     {
         /*Apagar todos os registros da tabela*/
-        Post::truncate();
+//        Post::truncate(); -> NÃO PODE SER UTILIZADOS SE FOR FK
 
         factory('App\Post',15)->create();
 

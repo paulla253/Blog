@@ -14,9 +14,17 @@ class Post extends Model
     ];
 
     /*Um posts pode ter vários comentarios*/
+    /*Pode ser obervado no tinker*/
     public function comments()
     {
         return $this->hasMany('App\Comment');
     }
-    /*Pode ser obervado no tinker*/
+
+
+    public function tags()
+    {
+        return $this->belongsToMany('App\Tag','posts_tags');
+    }
+
+
 }
