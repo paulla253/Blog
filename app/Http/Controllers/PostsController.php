@@ -7,6 +7,8 @@ use App\Post;
 
 class PostsController extends Controller
 {
+
+
     public function index()
     {
         $posts= \App\Post::all();

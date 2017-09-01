@@ -11,19 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/','PostsController@index');
+Route::get('/admin','PostsAdminController@index');
+
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 /*Mandando para o controler- Primeiro teste*/
 //Route::get('/test','TestController@index');
 
 
 /*Mandado com o nome*/
-Route::get('/test/{nome}','TestController@index');
-Route::get('/notas','TestController@notas');
-
-Route::get('/blog','PostsController@index');
+//Route::get('/test/{nome}','TestController@index');
+//Route::get('/notas','TestController@notas');
 
 /*Atividade que foi Entregada*/
-Route::get('/blogEntrega','BlogController@index');
+//Route::get('/blogEntrega','BlogController@index');
