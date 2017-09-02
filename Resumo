@@ -28,5 +28,14 @@ php artisan db:seed -> roda as seeder
 php artisan key:generate ->Gera a Key para o .env
 
 
+Biblioteca illuminate/html:
 
+composer require illuminate/html
+
+colocar no cofing>app.php providers  \Illuminate\Html\HtmlServiceProvider::class
+
+Colocar em aliases :
+
+        'Form' =>\Illuminate\Html\FormFacade::class,
+        'Html' => \Illuminate\Html\HtmlFacade::class
 
