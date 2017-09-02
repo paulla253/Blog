@@ -22,5 +22,8 @@
 
     </table>
 
+    {{--Colocando paginação--}}
+    {{$posts->render()}}
+
 
 @endsection
